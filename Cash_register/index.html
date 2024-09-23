@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="Onload()">
+    <div class="container">
+        <div>
+            <h1>BILL MANAGEMENT</h1>
+            <p>This app will tell you something. Find it.</p>
+        </div>
+        <div>
+            <input type="number" placeholder="Enter the bill amount" id="bill-amount">
+            <button id="bill-amount-btn">Next</button>
+        </div>
+        <div class="amount">
+            <div>
+                <input type="number" placeholder="Enter the amount received from the customer" id="received-input">
+                <button id="Check">Check</button>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>500</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+            <button id="Reset">Reset</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
